@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.9828560f.chunk.css",
-  "main.js": "/static/js/main.11851790.chunk.js",
-  "main.js.map": "/static/js/main.11851790.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/js/2.0aa7bf91.chunk.js": "/static/js/2.0aa7bf91.chunk.js",
-  "static/js/2.0aa7bf91.chunk.js.map": "/static/js/2.0aa7bf91.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.04ecf7bbd256ad4c726b55f70ea24ede.js": "/precache-manifest.04ecf7bbd256ad4c726b55f70ea24ede.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.9828560f.chunk.css.map": "/static/css/main.9828560f.chunk.css.map"
+  "main.css": "/kkz_one/static/css/main.9828560f.chunk.css",
+  "main.js": "/kkz_one/static/js/main.90f90901.chunk.js",
+  "main.js.map": "/kkz_one/static/js/main.90f90901.chunk.js.map",
+  "runtime~main.js": "/kkz_one/static/js/runtime~main.3dd75915.js",
+  "runtime~main.js.map": "/kkz_one/static/js/runtime~main.3dd75915.js.map",
+  "static/js/2.0aa7bf91.chunk.js": "/kkz_one/static/js/2.0aa7bf91.chunk.js",
+  "static/js/2.0aa7bf91.chunk.js.map": "/kkz_one/static/js/2.0aa7bf91.chunk.js.map",
+  "index.html": "/kkz_one/index.html",
+  "precache-manifest.fa7288a3051fdc04e1249fb8df7289f8.js": "/kkz_one/precache-manifest.fa7288a3051fdc04e1249fb8df7289f8.js",
+  "service-worker.js": "/kkz_one/service-worker.js",
+  "static/css/main.9828560f.chunk.css.map": "/kkz_one/static/css/main.9828560f.chunk.css.map"
 }
