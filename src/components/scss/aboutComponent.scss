@@ -1,0 +1,40 @@
+.aboutUs {
+  grid-area: 9/1/11/13;
+  display: grid;
+}
+
+.aboutUs__header {
+  grid-area: 9/1/10/13;
+}
+
+.aboutUs__article-p1 {
+  grid-area: 10/1/11/7;
+  @include borderGrey;
+  margin: 10px;
+  padding: 5px;
+}
+
+.aboutUs__article-p2 {
+  grid-area: 10/8/11/13;
+  @include borderGrey;
+  margin: 10px;
+  padding: 5px;
+}
+
+.aboutUs__article__subheader {
+  @include calcSubheader;
+}
+
+@media (max-width: 520px) {
+  .aboutUs {
+    grid-area: 10/1/11/13;
+  }
+  // .aboutUs__header {
+  //   grid-area: 9/1/10/13;
+  // }
+  .grid-area {
+    grid-area: 5/1/7/13;
+  }
+  .aboutUs__article-p2 {
+  }
+}

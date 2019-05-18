@@ -1,0 +1,51 @@
+.header {
+  grid-area: 1/1/2/13;
+  display: grid;
+}
+
+.header-logo {
+  text-align: center;
+  grid-area: 1/1/2/6;
+  height: 170px;
+  margin-top: 10px;
+}
+.logo-first-line {
+  font: {
+    size: 100px;
+    style: italic;
+  }
+  color: $mainOrage;
+  .logo-first-line__first-letter {
+    color: black;
+  }
+  .logo-first-line__second-letter {
+    margin-left: -40px;
+  }
+  .logo-first-line__third-letter {
+    margin-left: -10px;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+.logo-second-line {
+  margin-top: -10px;
+}
+.header-phones {
+  grid-area: 1/6/2/13;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+.header-phones-first-line {
+  font: {
+    size: 30px;
+  }
+}
+.header-phones-second-line {
+  padding: 10px 0 0 0;
+  font: {
+    size: 20px;
+  }
+}

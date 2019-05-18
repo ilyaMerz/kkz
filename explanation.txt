@@ -1,0 +1,53 @@
+/* Десктопная сетка */
+
+ Header                  1/1/2/13; 
+    .header-logo             1/1/2/6;  +
+    .header-phones           1/6/2/13;  
+ Menu                    2/1/3/13; 
+    .nav-menu__dropdown      2/1/3/13;  
+
+ Production              4/1/6/13;     +-
+    .production__header      4/1/4/13; 
+    .production__cards       5/1/6/13; 
+ AboutUs                 7/1/9/13;      --
+   .aboutUs__header          5/1/6/13; 
+   .aboutUs__article         6/1/7/13; 
+ SpecialOffers           9/1/11/13; 
+   .special-offers__subheader 9/1/10/13; 
+   .special-offers__cards     10/1/11/13; 
+ Calculator              11/1/12/13;    
+ FeedbackForm            12/1/14/13; 
+    .feedback-form__subheader 12/1/13/13; 
+    .feedback-form__form      13/1/14/5; 
+ Scheme                  14/1/15/13;
+ Footer                  14/1/17/13
+    .footer__copyright        14/1/15/7
+    .footer__law-text         15/1/16/7;
+    .footer___address         14/7/16/13;
+
+
+/* Мобильная сетка */
+
+ Header                  1/1/2/13; 
+    .header-logo             1/1/2/6;  +
+    .header-phones           1/6/2/13;  
+ Menu                    2/1/3/13; 
+    .nav-menu__dropdown      2/1/3/13;  
+
+ Production              4/1/6/13;     +-
+    .production__header      4/1/4/13; 
+    .production__cards       5/1/6/13; 
+ AboutUs                 7/1/9/13;      --
+   .aboutUs__header          5/1/6/13; 
+   .aboutUs__article         6/1/7/13; 
+ SpecialOffers           7/1/8/13; 
+   .special-offers__subheader 9/1/10/13; 
+   .special-offers__cards     10/1/11/13; 
+ Calculator              11/1/12/13;    
+ FeedbackForm            display: none;
+ 
+ Scheme                  11/1/12/13;
+ Footer                  14/1/17/13
+    .footer__copyright        14/1/15/7
+    .footer__law-text         15/1/16/7;
+    .footer___address         14/7/16/13;

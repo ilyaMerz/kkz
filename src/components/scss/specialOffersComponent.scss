@@ -1,0 +1,57 @@
+.special-offers {
+  grid-area: 7/1/9/13;
+  display: grid;
+}
+
+.special-offers__subheader {
+  grid-area: 7/1/8/13;
+}
+.special-offers__cards {
+  grid-area: 8/1/9/13;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 1180px;
+}
+.offer-card {
+  margin: 10px;
+  height: 200px;
+  width: 300px;
+  min-width: 250px;
+
+  text-align: center;
+  border: 1px solid grey;
+}
+.offer-card__header {
+  margin-top: 10px;
+  @include calcSubheader;
+}
+
+.offer-card__text {
+  margin-bottom: 15px;
+}
+
+.offer-card__icon {
+  font: {
+    size: 4em;
+  }
+
+  top: 35%;
+
+  margin-top: 20px;
+  height: 50%;
+  color: $mainOrage;
+}
+
+@media (max-width: 520px) {
+  .special-offers {
+    grid-area: 5/1/7/13;
+  }
+
+  .special-offers__subheader {
+    grid-area: 5/1/6/13;
+  }
+  .special-offers__cards {
+    grid-area: 6/1/7/13;
+  }
+}

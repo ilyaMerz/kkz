@@ -1,0 +1,10 @@
+.scheme {
+  grid-area: 12/1/13/13;
+  display: grid;
+}
+
+@media (max-width: 520px) {
+  .scheme {
+    grid-area: 7/1/8/13;
+  }
+}

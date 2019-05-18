@@ -1,0 +1,150 @@
+.nav {
+  grid-area: 2/1/3/13;
+  display: grid;
+}
+
+.nav-menu-ul {
+  border: 1px solid $mainOrage;
+  list-style-type: none;
+  margin: 10px 0 0;
+  height: 40px;
+  overflow: hidden;
+  grid-area: 2/1/3/13;
+}
+
+.nav-menu__item-li {
+  float: left;
+  padding: 10px 20px 0 0;
+}
+
+.nav-menu__item-li .nav-menu__item__link-a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  &:hover {
+    color: $mainOrage;
+  }
+}
+
+.nav-menu__hamburger {
+  display: none;
+}
+.nav-menu__dropdown {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .nav-menu__dropdown__x {
+    @include borderGrey;
+    position: relative;
+    font: {
+      size: 2rem;
+    }
+  }
+  .nav-menu__item-li {
+    display: none;
+  }
+
+  .nav-menu-ul {
+    border: none;
+    list-style-type: none;
+    margin: 10px 0 0;
+    height: 40px;
+    overflow: hidden;
+    grid-area: 2/1/3/13;
+  }
+
+  .nav-menu__hamburger {
+    position: relative;
+    height: 100%;
+    width: 35px;
+    display: block;
+    float: left;
+  }
+  .nav-menu__hamburger__inner-line {
+    height: 4px;
+    margin: 5px;
+    background: $mainOrage;
+    width: 40px;
+  }
+
+  .nav-menu__hamburger__line-wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    // @include border;
+  }
+
+  .nav-menu__dropdown {
+    display: inline-block;
+    grid-area: 4/1/4/13;
+    height: 100vh;
+    width: 80vw;
+    z-index: 1;
+    background: $mainOrage;
+    margin: 0 auto;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .dropdown__nav-menu-ul {
+    // @include border;
+    list-style-type: none;
+    margin: 0px 0 0;
+  }
+
+  .dropdown__nav-menu__item-li {
+    padding: 10px 0;
+  }
+
+  .dropdown__nav-menu__item-li .dropdown__nav-menu__item__link-a {
+    display: block;
+    // @include border;
+    height: 35px;
+    text-decoration: none;
+    color: white;
+    &:hover {
+      color: rgb(211, 208, 208);
+    }
+  }
+
+  .nav-menu__hamburger__inner-line.open {
+    height: 4px;
+    margin: 5px;
+    background: $mainOrage;
+    width: 45px;
+  }
+
+  .line-two {
+    height: 4px;
+    margin: 5px;
+    background: $mainOrage;
+    width: 40px;
+  }
+
+  .line-two.open {
+    // display: none;
+  }
+  .line-one.open {
+    margin: 0px;
+    transform: rotate(45deg);
+    width: 40px;
+    transition: 0.2s;
+    margin-top: 3px;
+  }
+  .line-two.open {
+    margin: 0px;
+    transform: rotate(-45deg);
+    width: 40px;
+    margin-top: -4px;
+    transition: 0.2s;
+  }
+
+  .line-three.open {
+    display: none;
+  }
+}

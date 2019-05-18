@@ -1,0 +1,42 @@
+.footer {
+  display: grid;
+  grid-area: 13/1/15/13;
+  padding: 0 10px 10px 10px;
+  margin: 20px 0;
+  font: {
+    size: 0.8em;
+  }
+  color: rgb(59, 59, 56);
+}
+
+.footer__copyright {
+  grid-area: 13/1/14/7;
+}
+.footer__law-text {
+  grid-area: 14/1/15/7;
+  padding-right: 15px;
+}
+
+.footer___address {
+  grid-area: 13/7/15/13;
+  padding-left: 15px;
+}
+
+@media (max-width: 520px) {
+  .footer {
+    grid-area: 12/1/15/13;
+  }
+
+  .footer__copyright {
+    grid-area: 12/1/13/7;
+  }
+  .footer__law-text {
+    grid-area: 13/1/14/7;
+    padding-right: 15px;
+  }
+
+  .footer___address {
+    grid-area: 12/7/14/13;
+    padding-left: 15px;
+  }
+}

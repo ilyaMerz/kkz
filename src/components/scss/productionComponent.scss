@@ -1,0 +1,134 @@
+.production {
+  grid-area: 3/1/5/13;
+  margin: auto;
+  display: grid;
+}
+
+.production__header {
+  grid-area: 4/1/4/13;
+}
+.production__cards {
+  padding-top: 0;
+  grid-area: 5/1/6/13;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 1180px;
+}
+
+.hide-area {
+  display: block;
+}
+
+.production-card {
+  width: 260px;
+  margin: 20px;
+  box-shadow: 1px 1px 10px -1px rgba(124, 123, 124, 0.75);
+}
+.card__header {
+  font: {
+    size: 16px;
+    weight: 400;
+  }
+  height: 30px;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 16px;
+  border-bottom: 1px solid $borderGrey;
+}
+
+.card__image {
+  text-align: center;
+}
+.card__price {
+  font: {
+    size: 20px;
+    weight: 400;
+  }
+
+  color: $mainOrage;
+  text-align: center;
+}
+.card__description {
+  position: relative;
+  padding: 5px 5px 0px;
+  text-align: center;
+  border-top: 1px solid $borderGrey;
+  top: 25px;
+  padding-bottom: 10px;
+  height: 80px;
+}
+
+/* Mobile-styles */
+
+@media (max-width: 520px) {
+  .card__header {
+    display: block;
+    font: {
+      size: 0.9em;
+      weight: 400;
+    }
+    height: 30px;
+    text-align: center;
+    padding: 14px 0;
+    margin: 0 px;
+    border-bottom: 1px solid $borderGrey;
+  }
+  .production__cards {
+    max-width: 1180px;
+  }
+
+  .hide-area {
+    display: none;
+  }
+
+  .production-card {
+    display: block;
+    margin: 1px;
+    box-shadow: none;
+    border: 1px solid $mainOrage;
+  }
+
+  .card__description {
+    position: relative;
+
+    text-align: center;
+    border-top: 1px solid $borderGrey;
+    top: 0px;
+
+    font: {
+      size: 0.9em;
+    }
+    padding-bottom: 10px;
+
+    height: 60px;
+  }
+
+  .card__image {
+    text-align: center;
+
+    height: 180px;
+  }
+
+  .card__price {
+    font: {
+      size: 17px;
+      weight: 400;
+    }
+    color: $mainOrage;
+    text-align: center;
+  }
+
+  .card__header::before {
+    content: " + ";
+    font: {
+      size: 1.3em;
+      weight: 600;
+    }
+    color: $mainOrage;
+  }
+
+  .card__header.open::before {
+    content: " - ";
+  }
+}

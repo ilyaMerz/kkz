@@ -1,0 +1,194 @@
+/* Общие стили калькулятора */
+
+.results {
+  @include borderGrey;
+  // @include border;
+  // margin: 3px;
+  // padding: 3px;
+  width: 100%;
+  min-width: 450px;
+  margin: 2px;
+}
+
+.results-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.brick-results-wrapper,
+.price-results-wrapper {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+}
+
+.result-window__result-text,
+.result-window__result-price {
+  display: inline-block;
+  font: {
+    size: 1em;
+  }
+  width: 100px;
+  text-align: end;
+}
+
+.input-window {
+  width: 100%;
+  @include border;
+  display: inline-block;
+}
+
+.result-window-header {
+  @include calcSubheader;
+}
+
+.calculator {
+  grid-area: 5/1/7/13;
+  display: grid;
+  display: block;
+  margin: 0 auto;
+  width: 450px;
+}
+
+.result-window__result-text,
+.result-window__result-price {
+  @include borderGrey;
+}
+
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+
+/* Стили вида кирпича */
+
+.bricksSelector {
+  text-align: left;
+}
+
+.calculator__brick-work-type__wrapper {
+  // margin: 3px;
+  padding: 3px;
+  @include borderGrey;
+  width: 100%;
+  width: 250px;
+  text-align: center;
+}
+.bricks-header {
+  @include calcSubheader;
+}
+
+.brick-label {
+  display: inline-block;
+  background-color: #ddd;
+  padding: 4px 5px;
+  margin: 2px;
+
+  border: 2px solid #ddd;
+}
+
+/* Стили вида кладки */
+
+.brick-types-wrapper {
+  @include borderGrey;
+  width: 100%;
+  margin: 2px;
+}
+.calculator__brick-work-type__header {
+  @include calcSubheader;
+}
+
+// .calculator__brick-work-type__wrapper {
+//   margin: 3px;
+//   padding: 3px;
+//   @include borderGrey;
+//   width: 100%;
+//   min-width: 450px;
+//   // @include border;
+//   text-align: center;
+// }
+
+.work-type-wrapper {
+  @include borderGrey;
+  width: 100%;
+  margin: 2px;
+}
+.work-type-input {
+  display: none;
+}
+
+.work-type-label {
+  display: inline-block;
+  background-color: #ddd;
+  padding: 4px 5px;
+  margin: 2px;
+  border: 2px solid #ddd;
+  &:hover {
+    border: 2px solid #bbb;
+  }
+  // @include border;
+}
+
+.work-type-input:checked + label {
+  border: 2px solid #dc5539;
+}
+
+/* Стили блока "растворный шов" */
+
+.jointSizeWrapper {
+  // margin: 3px;
+  // padding: 3px;
+  @include borderGrey;
+  width: 100%;
+  min-width: 450px;
+  text-align: left;
+  margin: 2px;
+}
+
+.jointSizeHeader {
+  @include calcSubheader;
+}
+
+.joint-size__input {
+  margin-left: 5px;
+}
+
+/* Стили блока "площадь стен" */
+.wall-size-wrapper {
+  // margin: 3px;
+  // padding: 3px;
+  @include borderGrey;
+  width: 100%;
+  min-width: 450px;
+  text-align: left;
+}
+
+.wall-size-header {
+  @include calcSubheader;
+}
+
+.total-bricks,
+.total-price {
+  display: inline;
+  font {
+    size: 10px;
+  }
+}
+
+/* Стили ввода площади стен */
+
+.brick-wall-wrapper {
+  margin: 2px;
+}
+
+/* Мобильные стили */
+@media (max-width: 520px) {
+  .calculator {
+    @include borderGrey;
+    grid-area: 8/1/9/13;
+  }
+}

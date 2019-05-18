@@ -1,0 +1,31 @@
+@mixin border {
+  border: 1px solid red;
+}
+
+@mixin borderBlue {
+  border: 1px dashed blue;
+}
+
+@mixin borderGrey {
+  border: 1px solid grey;
+}
+
+@mixin calcSubheader {
+  font: {
+    weight: 600;
+  }
+  text-align: center;
+  padding: 0 0 5px 0;
+}
+
+$borderGrey: #f6f6f6;
+$mainOrage: #dc5539;
+.subheader {
+  font: {
+    size: 24px;
+    weight: 400;
+  }
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}

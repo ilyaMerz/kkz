@@ -1,0 +1,72 @@
+.feedback-form {
+  grid-area: 11/1/12/13;
+  @include borderGrey;
+  display: grid;
+}
+
+.feedback-form__subheader {
+  grid-area: 10/1/11/13;
+}
+
+.feedback-form__form-wrapper {
+  grid-area: 11/1/12/7;
+  height: 20em;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.feedback-form__contacts {
+  grid-area: 11/7/12/13;
+
+  height: 20em;
+  text-align: center;
+}
+
+.feedback-form__contacts__subheader {
+  @include calcSubheader;
+}
+
+.feedback-form__form__question-select {
+  width: 81%;
+  height: 2em;
+  margin: 0 0 5px 0;
+  border-radius: 6px;
+  padding: 5px;
+  // border-radius: 6px;
+  background-color: #fff;
+  color: #757575;
+  border: 1px solid grey;
+}
+
+.label {
+  // @include border;
+  // padding-bottom: 15px;
+  // margin: 15px;
+}
+
+.feedback-form__form-question-text-area {
+  width: 80%;
+  height: 6em;
+  margin: 5px 0;
+  padding: 5px 0px 5px 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.feedback-form__form {
+  margin-top: -16px;
+}
+
+input[type="text"],
+.feedback-form__form-question-text-area {
+  width: 80%;
+  padding: 5px 0px 5px 5px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+@media (max-width: 520px) {
+  .feedback-form {
+    display: none;
+  }
+}
