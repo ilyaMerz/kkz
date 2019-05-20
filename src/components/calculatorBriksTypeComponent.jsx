@@ -38,7 +38,7 @@ class TypesOfBrikSelector extends Component {
             <div>
               <input
                 className="brick-input"
-                onClick={() => {
+                onChange={() => {
                   this.onBirckSelect(singleBrick);
                 }}
                 type="radio"

@@ -39,7 +39,7 @@ class BrickWorkType extends Component {
         </div>
 
         <input
-          onClick={e => {
+          onChange={e => {
             this.onBrickWorkSelect(e);
             this.setState({ checked: false });
           }}
@@ -60,7 +60,7 @@ class BrickWorkType extends Component {
         </label>
 
         <input
-          onClick={e => this.onBrickWorkSelect(e)}
+          onChange={e => this.onBrickWorkSelect(e)}
           type="radio"
           id="one-brick"
           name="masonry-type"
@@ -77,7 +77,7 @@ class BrickWorkType extends Component {
         </label>
 
         <input
-          onClick={e => this.onBrickWorkSelect(e)}
+          onChange={e => this.onBrickWorkSelect(e)}
           type="radio"
           id="one-and-half-brick"
           name="masonry-type"
@@ -95,7 +95,7 @@ class BrickWorkType extends Component {
         <br />
 
         <input
-          onClick={e => this.onBrickWorkSelect(e)}
+          onChange={e => this.onBrickWorkSelect(e)}
           type="radio"
           id="two-briks"
           name="masonry-type"
@@ -112,7 +112,7 @@ class BrickWorkType extends Component {
         </label>
 
         <input
-          onClick={e => this.onBrickWorkSelect(e)}
+          onChange={e => this.onBrickWorkSelect(e)}
           type="radio"
           id="two-and-half-briks"
           name="masonry-type"

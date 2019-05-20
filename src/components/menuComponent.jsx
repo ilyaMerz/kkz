@@ -53,18 +53,16 @@ class Menu extends Component {
 
     const menuDrop = this.state.links.map(link => {
       return (
-        <div>
-          <div key={link.id}>
-            <li className="dropdown__nav-menu__item-li">
-              <a
-                onClick={e => this.hiddener(e)}
-                className="dropdown__nav-menu__item__link-a"
-                href={link.url}
-              >
-                {link.text}
-              </a>
-            </li>
-          </div>
+        <div key={link.id}>
+          <li className="dropdown__nav-menu__item-li">
+            <a
+              onClick={e => this.hiddener(e)}
+              className="dropdown__nav-menu__item__link-a"
+              href={link.url}
+            >
+              {link.text}
+            </a>
+          </li>
         </div>
       );
     });

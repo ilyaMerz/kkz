@@ -102,16 +102,6 @@
   @include calcSubheader;
 }
 
-// .calculator__brick-work-type__wrapper {
-//   margin: 3px;
-//   padding: 3px;
-//   @include borderGrey;
-//   width: 100%;
-//   min-width: 450px;
-//   // @include border;
-//   text-align: center;
-// }
-
 .work-type-wrapper {
   @include borderGrey;
   width: 100%;
@@ -190,5 +180,45 @@
   .calculator {
     @include borderGrey;
     grid-area: 8/1/9/13;
+    width: 320px;
+  }
+
+  .results {
+    @include borderGrey;
+    width: 98%;
+    min-width: 314px;
+    margin: 2px;
+  }
+
+  .wall-size-wrapper {
+    @include borderGrey;
+    width: 98%;
+    min-width: 314px;
+    text-align: left;
+  }
+
+  .jointSizeWrapper {
+    @include borderGrey;
+    width: 98%;
+    min-width: 314px;
+    text-align: left;
+    margin: 2px;
+  }
+
+  .work-type-wrapper {
+    @include borderGrey;
+    width: 98%;
+    min-width: 314px;
+    margin: 2px;
+  }
+
+  .brick-types-wrapper {
+    @include borderGrey;
+    width: 98%;
+    min-width: 314px;
+    margin: 2px;
+    font: {
+      size: 0.9em;
+    }
   }
 }
