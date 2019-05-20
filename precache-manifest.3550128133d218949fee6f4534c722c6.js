@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/kkz_one/static/js/runtime~main.3dd75915.js"
   },
   {
-    "revision": "8755f6fbbc31a2a8a87e",
-    "url": "/kkz_one/static/js/main.90f90901.chunk.js"
+    "revision": "f79b59a0336e68c6d5d9",
+    "url": "/kkz_one/static/js/main.56158026.chunk.js"
   },
   {
     "revision": "a311ff972efdb2a6f647",
     "url": "/kkz_one/static/js/2.0aa7bf91.chunk.js"
   },
   {
-    "revision": "8755f6fbbc31a2a8a87e",
-    "url": "/kkz_one/static/css/main.9828560f.chunk.css"
+    "revision": "f79b59a0336e68c6d5d9",
+    "url": "/kkz_one/static/css/main.3e93936c.chunk.css"
   },
   {
-    "revision": "c21d03b0b7614ce224a4a457a80d0146",
+    "revision": "f6a8a24205505ffa160e384c9e0c9bde",
     "url": "/kkz_one/index.html"
   }
 ];
