@@ -1,5 +1,5 @@
 {
-  "main.css": "/kkz_one/static/css/main.3e93936c.chunk.css",
+  "main.css": "/kkz_one/static/css/main.bce6e461.chunk.css",
   "main.js": "/kkz_one/static/js/main.56158026.chunk.js",
   "main.js.map": "/kkz_one/static/js/main.56158026.chunk.js.map",
   "runtime~main.js": "/kkz_one/static/js/runtime~main.3dd75915.js",
@@ -7,7 +7,7 @@
   "static/js/2.0aa7bf91.chunk.js": "/kkz_one/static/js/2.0aa7bf91.chunk.js",
   "static/js/2.0aa7bf91.chunk.js.map": "/kkz_one/static/js/2.0aa7bf91.chunk.js.map",
   "index.html": "/kkz_one/index.html",
-  "precache-manifest.3550128133d218949fee6f4534c722c6.js": "/kkz_one/precache-manifest.3550128133d218949fee6f4534c722c6.js",
+  "precache-manifest.f1c80dd8c2efcaa87a56e7b5ba229607.js": "/kkz_one/precache-manifest.f1c80dd8c2efcaa87a56e7b5ba229607.js",
   "service-worker.js": "/kkz_one/service-worker.js",
-  "static/css/main.3e93936c.chunk.css.map": "/kkz_one/static/css/main.3e93936c.chunk.css.map"
+  "static/css/main.bce6e461.chunk.css.map": "/kkz_one/static/css/main.bce6e461.chunk.css.map"
 }
