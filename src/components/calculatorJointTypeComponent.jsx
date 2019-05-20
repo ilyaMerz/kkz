@@ -6,8 +6,6 @@ class JointType extends Component {
     checked: false
   };
 
-  //before
-
   checkChanger = () => {
     if (this.state.checked === false) {
       this.setState({
