@@ -24,13 +24,6 @@ class Footer extends Component {
           <p>
             тел. <a href="tel: 89999988888s8s8">8 (4632) 261-04</a>
           </p>
-          <div className="ym">
-            <YMInitializer
-              accounts={[53737435]}
-              options={{ webvisor: true, defer: true }}
-              version="2"
-            />
-          </div>
         </div>
       </footer>
     );
