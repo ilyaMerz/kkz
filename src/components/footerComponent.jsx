@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { YMInitializer } from "react-yandex-metrika";
 
 class Footer extends Component {
   state = {};
