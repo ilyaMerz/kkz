@@ -1,13 +1,13 @@
 {
-  "main.css": "/kkz_one/static/css/main.bce6e461.chunk.css",
-  "main.js": "/kkz_one/static/js/main.b35416b6.chunk.js",
-  "main.js.map": "/kkz_one/static/js/main.b35416b6.chunk.js.map",
+  "main.css": "/kkz_one/static/css/main.e58d1f28.chunk.css",
+  "main.js": "/kkz_one/static/js/main.22704c17.chunk.js",
+  "main.js.map": "/kkz_one/static/js/main.22704c17.chunk.js.map",
   "runtime~main.js": "/kkz_one/static/js/runtime~main.3dd75915.js",
   "runtime~main.js.map": "/kkz_one/static/js/runtime~main.3dd75915.js.map",
-  "static/js/2.a2af3ed2.chunk.js": "/kkz_one/static/js/2.a2af3ed2.chunk.js",
-  "static/js/2.a2af3ed2.chunk.js.map": "/kkz_one/static/js/2.a2af3ed2.chunk.js.map",
+  "static/js/2.0aa7bf91.chunk.js": "/kkz_one/static/js/2.0aa7bf91.chunk.js",
+  "static/js/2.0aa7bf91.chunk.js.map": "/kkz_one/static/js/2.0aa7bf91.chunk.js.map",
   "index.html": "/kkz_one/index.html",
-  "precache-manifest.bb37a1ccef9cb35efef10e698d349f01.js": "/kkz_one/precache-manifest.bb37a1ccef9cb35efef10e698d349f01.js",
+  "precache-manifest.75a1d03d92ab9ee65a904417f31fbb8b.js": "/kkz_one/precache-manifest.75a1d03d92ab9ee65a904417f31fbb8b.js",
   "service-worker.js": "/kkz_one/service-worker.js",
-  "static/css/main.bce6e461.chunk.css.map": "/kkz_one/static/css/main.bce6e461.chunk.css.map"
+  "static/css/main.e58d1f28.chunk.css.map": "/kkz_one/static/css/main.e58d1f28.chunk.css.map"
 }
