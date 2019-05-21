@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { YMInitializer } from "react-yandex-metrika";
 
 class Footer extends Component {
   state = {};
@@ -23,6 +24,13 @@ class Footer extends Component {
           <p>
             тел. <a href="tel: 89999988888s8s8">8 (4632) 261-04</a>
           </p>
+        </div>
+        <div className="ym">
+          <YMInitializer
+            accounts={[53737435]}
+            options={{ webvisor: true, defer: true }}
+            version="2"
+          />
         </div>
       </footer>
     );
