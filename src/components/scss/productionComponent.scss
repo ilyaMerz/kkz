@@ -61,7 +61,7 @@
 
 /* Mobile-styles */
 
-@media (max-width: 520px) {
+@media (max-width: 600px) {
   .card__header {
     display: block;
     font: {
@@ -84,7 +84,7 @@
 
   .production-card {
     display: block;
-    margin: 1px;
+    margin: 1px 20px;
     box-shadow: none;
     border: 1px solid $mainOrage;
   }

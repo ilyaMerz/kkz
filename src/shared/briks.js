@@ -13,7 +13,7 @@ export const BRIKS = [
     id: 1,
     title: "Кирпич рядовой М-150 рифленый",
     img: "assets/images/brick_two.jpg",
-    price: "5.70",
+    price: "5.75",
     descr: "Кирпич рядовой одинарный керамический. Прочность М-150.",
     width: "250",
     height: "65"

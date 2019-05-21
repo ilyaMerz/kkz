@@ -6,27 +6,32 @@ class Menu extends Component {
       {
         id: 0,
         url: "#ourBriks",
-        text: "Hаш кирпич"
+        text: "Hаш кирпич",
+        displayOnMobyle: true
       },
       {
         id: 1,
         url: "#scheme",
-        text: "Схема проезда"
+        text: "Схема проезда",
+        displayOnMobyle: "block"
       },
       {
         id: 2,
         url: "#calc",
-        text: "Расчитать"
+        text: "Расчитать",
+        displayOnMobyle: "block"
       },
       {
         id: 3,
         url: "#aboutus",
-        text: "О компании"
+        text: "О компании",
+        displayOnMobyle: "block"
       },
       {
         id: 4,
         url: "#form",
-        text: "Свяжитесь"
+        text: "Свяжитесь",
+        displayOnMobyle: "none"
       }
     ]
   };
@@ -52,6 +57,9 @@ class Menu extends Component {
     });
 
     const menuDrop = this.state.links.map(link => {
+      const displayStyle = {
+        display: link.displayOnMobyle
+      };
       return (
         <div key={link.id}>
           <li className="dropdown__nav-menu__item-li">
@@ -59,6 +67,7 @@ class Menu extends Component {
               onClick={e => this.hiddener(e)}
               className="dropdown__nav-menu__item__link-a"
               href={link.url}
+              style={displayStyle}
             >
               {link.text}
             </a>

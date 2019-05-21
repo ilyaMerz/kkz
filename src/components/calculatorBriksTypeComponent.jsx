@@ -2,17 +2,17 @@ import React, { Component } from "react";
 
 class TypesOfBrikSelector extends Component {
   state = {
-    selectedBirck: null,
+    selectedBirck: this.props.briks[0],
     selectdBrickWidth: "250",
     selectedBrickHeight: "65",
-    selectedBrickPrice: "5.70",
-    checked: false
+    selectedBrickPrice: "5.70"
+    // checked: false
   };
 
   styleChanger = () => {
     document.getElementById("brick-type-input-result").classList.add("green");
     document.getElementById("brick-type-input-result").innerHTML =
-      " &#x2714; Тип кирпича выбран";
+      " &#x2714; " + this.state.selectedBirck.title;
   };
 
   onBirckSelect(singleBrick) {
@@ -38,6 +38,7 @@ class TypesOfBrikSelector extends Component {
             <div>
               <input
                 className="brick-input"
+                defaultChecked={singleBrick.checked}
                 onChange={() => {
                   this.onBirckSelect(singleBrick);
                 }}

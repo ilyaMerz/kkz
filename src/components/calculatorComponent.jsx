@@ -8,10 +8,10 @@ import WallSize from "./calculatorWallSizeComponent";
 
 class Calculator extends Component {
   state = {
-    selectedBirck: null,
-    selectdBrickWidth: 0,
-    selectedBrickHeight: 0,
-    selectedBrickPrice: 0,
+    selectedBirck: this.props.briks[0],
+    selectdBrickWidth: "250",
+    selectedBrickHeight: "65",
+    selectedBrickPrice: "5.70",
     jointSize: 0,
     brickWorkTypeMultiplier: 1,
     wallSize: " ",
