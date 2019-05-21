@@ -23,7 +23,7 @@ class JointType extends Component {
     });
     setTimeout(() => this.props.onJointSizeSelectState(this.state), 0);
     setTimeout(() => this.props.calculateResult(), 0);
-    setTimeout(() => this.props.onJointSizeChange(), 100);
+    setTimeout(() => this.props.onJointSizeChange(), 0);
   };
 
   render() {
